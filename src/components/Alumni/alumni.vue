@@ -11,10 +11,10 @@
                     </div>
                 </div>
                 <div>
-                    Lorem ipsum mordicus edictum marm marcuskld <br>
-                    Dixon. Lorem ipsum mordicus edictum marm<br>
-                    marcuskld Dixon. Lorem ipsum mordicus edictum <br>
-                    marm marcuskld Dixon. Lorem ipsum mordicus<br>
+                    Lorem ipsum mordicus edictum marm marcuskld
+                    Dixon. Lorem ipsum mordicus edictum marm
+                    marcuskld Dixon. Lorem ipsum mordicus edictum
+                    marm marcuskld Dixon. Lorem ipsum mordicus
                     edictum marm marcuskld Dixon
                 </div>
             </div>
@@ -27,10 +27,10 @@
                     </div>
                 </div>
                 <div>
-                    Lorem ipsum mordicus edictum marm marcuskld <br>
-                    Dixon. Lorem ipsum mordicus edictum marm<br>
-                    marcuskld Dixon. Lorem ipsum mordicus edictum <br>
-                    marm marcuskld Dixon. Lorem ipsum mordicus<br>
+                    Lorem ipsum mordicus edictum marm marcuskld
+                    Dixon. Lorem ipsum mordicus edictum marm
+                    marcuskld Dixon. Lorem ipsum mordicus edictum
+                    marm marcuskld Dixon. Lorem ipsum mordicus
                     edictum marm marcuskld Dixon
                 </div>
             </div>

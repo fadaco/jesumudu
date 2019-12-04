@@ -1,12 +1,12 @@
 <template>
     <div id="banner">
         <div class="banner-first">
-            <h1 class="header-one left">We encourage and empower <br>
+            <h1 class="header-one left">We encourage and empower
                 Nigerians, to build a sustainable nation</h1>
             <div class="left">
-                We provide academic and professional trainings, with the following accreditation:<br>
-                ISO certification, Federal Ministry of Education, Nigeria, CAC, CIAP, Recognition, <br>
-                Accreditation and Charter Council (RACC) is globally recognized, WSO World <br>
+                We provide academic and professional trainings, with the following accreditation:
+                ISO certification, Federal Ministry of Education, Nigeria, CAC, CIAP, Recognition,
+                Accreditation and Charter Council (RACC) is globally recognized, WSO World
                 Safety Organization, Euro-American Joint Accreditation Services (EA-JAS)
             </div>
 
@@ -67,6 +67,10 @@
         border: 2px solid #5340BC;
         border-radius: 14px;
         font-weight: bold;
+    }
+
+    .banner-first {
+        width: 70%;
     }
 
 </style>

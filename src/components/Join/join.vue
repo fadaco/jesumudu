@@ -8,7 +8,7 @@
         </div>
     </div>
         <div class="join-two">
-            <img src="../../assets/img-grp.svg">
+          <!--  <img src="../../assets/img-grp.svg">-->
         </div>
     </div>
 </template>
@@ -33,6 +33,8 @@
 
     .join-two {
         width: 50%;
+        background-image: url("../../assets/img-grp.svg");
+        background-size: cover;
     }
 
     .join-two img {
