@@ -4,7 +4,7 @@
     <div class="tabs">
        <div class="tabs-1">
            <div>
-           <img src="../../assets/diamond-img.svg">
+           <img src="../../../assets/diamond-img.svg">
            </div>
            <div class="tabText boldText">Value driven</div>
            <div class="tabText bodT">To be the best among the rest<br>
@@ -14,7 +14,7 @@
        </div>
        <div class="tabs-2">
            <div>
-               <img src="../../assets/professional-img.svg">
+               <img src="../../../assets/professional-img.svg">
            </div>
            <div class="tabText boldText">Professional</div>
            <div class="tabText bodT">We thrive in, Professionalism, <br>
@@ -24,7 +24,7 @@
        </div>
        <div class="tabs-3">
            <div>
-               <img src="../../assets/commited-img.svg">
+               <img src="../../../assets/commited-img.svg">
            </div>
            <div class="tabText boldText">Committed</div>
            <div class="tabText bodT">We thrive in, Professionalism, <br>
@@ -50,19 +50,19 @@
     }
 
     .tabs-1 {
-        background-image: url("../../assets/card.svg");
+        background-image: url("../../../assets/card.svg");
         background-size: cover;
         padding: 75px 54px;
     }
 
     .tabs-2 {
-        background-image: url("../../assets/grp2.svg");
+        background-image: url("../../../assets/grp2.svg");
         background-size: cover;
         padding: 75px 54px;
     }
 
     .tabs-3 {
-        background-image: url("../../assets/Group3.svg");
+        background-image: url("../../../assets/Group3.svg");
         background-size: cover;
         padding: 75px 54px;
     }

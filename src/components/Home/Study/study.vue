@@ -12,7 +12,7 @@
             </div>
             <div class="study-two">
                 <div class="diver">
-                <img src="../../assets/guy-img.jpg">
+                <img src="../../../assets/guy-img.jpg">
                 </div>
             </div>
         </div>

@@ -16,7 +16,7 @@
         </div>
         <div class="banner-second">
             <div class="img-holder">
-            <img src="../../assets/banner-img.jpg">
+            <img src="../../assets/banner-img.jpg" alt="banner image">
             </div>
         </div>
     </div>

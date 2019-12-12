@@ -4,7 +4,7 @@
         <div class="alumni-tab">
             <div class="inner-tab">
                 <div class="tas">
-                   <img src="../../assets/image-guy.svg">
+                   <img src="../../../assets/image-guy.svg">
                     <div>
                         <div class="bold">Alpha Ceturi</div>
                         <div>Student</div>
@@ -20,7 +20,7 @@
             </div>
             <div class="inner-tab">
                 <div class="tas">
-                    <img src="../../assets/image-woman.svg">
+                    <img src="../../../assets/image-woman.svg">
                     <div>
                         <div class="bold">Canis Major</div>
                         <div>Student</div>
@@ -46,7 +46,7 @@
 
 <style scoped>
     .alumni {
-        background-image: url("../../assets/testimonal-bg.svg");
+        background-image: url("../../../assets/testimonal-bg.svg");
         background-size: cover;
         padding: 102px 0 154px 0;
     }

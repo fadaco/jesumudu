@@ -17,9 +17,9 @@
 
             </div>
             <div>
-                <img src="../../assets/twitter-logo-silhouette.svg">
-                <img src="../../assets/instagram.svg">
-                <img src="../../assets/facebook-logo.svg">
+                <img src="../../../assets/twitter-logo-silhouette.svg">
+                <img src="../../../assets/instagram.svg">
+                <img src="../../../assets/facebook-logo.svg">
             </div>
         </div>
     </div>

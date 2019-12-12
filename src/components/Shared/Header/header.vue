@@ -1,11 +1,11 @@
 <template>
     <header class="mainHeader">
-        <div class="logo">JESEM</div>
+        <div class="logo"><router-link to="/">JESEM</router-link></div>
         <div class="sideHeader">
             <div class="sideHeaderContent">
                 <div>Partners</div>
-                <div>Courses</div>
-                <div>About Us</div>
+                <div><router-link to="/courses">Courses</router-link></div>
+                <div><router-link to="about">About Us</router-link></div>
                 <div class="register">Register</div>
             </div>
         </div>
@@ -46,6 +46,10 @@
     }
     .logo {
         font-weight: bolder;
+    }
+
+    a {
+        text-decoration: none;
     }
 
 </style>

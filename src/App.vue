@@ -1,35 +1,14 @@
 <template>
   <div id="app">
-    <Header/>
-   <Banner/>
-    <WhoWeAre/>
-      <Study/>
-      <Alumni/>
-      <Join/>
-      <Footer/>
+   <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Header from './components/Header/header';
-import Banner from './components/Banner/banner';
-import WhoWeAre from './components/WhoWeAre/whoWeAre';
-import Study from './components/Study/study';
-import Alumni from './components/Alumni/alumni';
-import Join from './components/Join/join';
-import Footer from './components/Footer/footer';
+
 
 export default {
   name: 'app',
-  components: {
-    Header,
-    Banner,
-    WhoWeAre,
-    Study,
-    Alumni,
-    Join,
-    Footer
-  }
 }
 </script>
 
