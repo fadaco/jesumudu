@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="aboutUsHeader">
         <div id="aboutUsHeaderContent">
         <h1 class="paraHeader">Empowering Nigerians, to build a
             sustainable nation</h1>
@@ -97,6 +97,12 @@
     #aboutUsHeaderContent {
         width: 70%;
         margin: 50px auto;
+    }
+
+    #aboutUsHeader {
+        background-image: url("../../assets/About-us-bg.svg");
+        background-size: cover;
+        padding: 60px;
     }
 
 </style>
