@@ -1,5 +1,5 @@
 <template>
-    <div></div>
+    <div>course</div>
 </template>
 
 <script>
@@ -7,7 +7,6 @@
         name: "CoursesContent"
     }
 </script>
-
 <style scoped>
 
 </style>
