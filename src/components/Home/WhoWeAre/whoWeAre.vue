@@ -47,24 +47,31 @@
         justify-content: space-evenly;
         margin: 0 auto;
         width: 80%;
+        flex-wrap: wrap;
+
     }
+
 
     .tabs-1 {
         background-image: url("../../../assets/card.svg");
         background-size: cover;
         padding: 75px 54px;
+        box-shadow: 0 4px 16px 0 rgba(0,0,0, 0.13);
+        color: #251871;
     }
 
     .tabs-2 {
         background-image: url("../../../assets/grp2.svg");
         background-size: cover;
         padding: 75px 54px;
+        box-shadow: 0 4px 16px 0 rgba(0,0,0, 0.13);
     }
 
     .tabs-3 {
         background-image: url("../../../assets/Group3.svg");
         background-size: cover;
         padding: 75px 54px;
+        box-shadow: 0 4px 16px 0 rgba(0,0,0, 0.13);
     }
 
     .who {
@@ -74,6 +81,8 @@
 
     .center {
         text-align: center;
+        color: #251871;
+        font-size: 35px;
     }
 
     .tabText {
@@ -84,6 +93,7 @@
         font-size: 21px;
         font-weight: bold;
         margin: 20px 0;
+        color: #251871;
     }
 
     .tabs img {
@@ -91,6 +101,26 @@
     }
 
     .bodT {
-        font-weight: bold;
+        font-weight: 600;
+        opacity: 0.7;
+        line-height: 1.7em;
+        color: #251871;
+    }
+
+    @media only screen and (max-width: 415px ) {
+        .tabs div {
+            margin: 10px 0;
+            border: 4px;
+            color: #251871;
+        }
+
+        .boldText {
+            font-size: 28px;
+        }
+
+        .bodT {
+            font-size: 15px;
+        }
+
     }
 </style>

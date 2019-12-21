@@ -43,6 +43,7 @@
 
     .joinHeader {
         font-size: 3.1em;
+        font-weight: 500;
     }
 
     .apply {
@@ -51,6 +52,25 @@
         padding: 17px 37px;
         font-size: 26px;
         border-radius: 32px;
+    }
+
+    @media only screen and (max-width: 415px ) {
+
+        .join-two{
+            display: none;
+        }
+
+        .join-one {
+            width: 100%;
+            text-align: center;
+            /*padding: 35px 4%;*/
+        }
+
+        .joinHeader {
+            font-size: 2.5em;
+
+        }
+
     }
 
 </style>

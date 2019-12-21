@@ -55,6 +55,7 @@
 <style scoped>
     .aboutUsBanner {
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-evenly;
         width: 80%;
         margin: 0 auto;
@@ -84,6 +85,7 @@
         padding: 20px;
         box-shadow: 0 1px 8px 6px #ececec;
         width: 27%;
+        border-radius: 5px;
     }
 
     .imageHolder {
@@ -97,6 +99,14 @@
     #aboutUsHeaderContent {
         width: 70%;
         margin: 50px auto;
+    }
+
+    @media only screen and (max-width: 417px)  {
+
+        .aboutUsBannerContent {
+            margin: 0 0 20px 0;
+            width: 80%;
+        }
     }
 
 </style>

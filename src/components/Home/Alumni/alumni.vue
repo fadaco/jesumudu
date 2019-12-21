@@ -55,6 +55,7 @@
         justify-content: space-evenly;
         width: 100%;
         margin: 0 auto;
+        flex-wrap: wrap;
     }
 
     .tas {
@@ -86,4 +87,28 @@
     .bold {
         font-weight: bold;
     }
+
+    @media only screen and (max-width: 415px ) {
+        .inner-tab {
+            width: 65%;
+            margin: 0 0 20px 0;
+        }
+
+        .alumni-header {
+            font-size: 30px;
+            padding: 0 40px;
+
+        }
+
+        .alumni {
+            padding: 50px 0 40px 0;
+        }
+
+        .inner-tab {
+            padding: 45px 45px;
+
+        }
+
+    }
+
 </style>

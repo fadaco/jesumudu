@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="footer">
-            <div>JESUMIDO</div>
+            <div class="logo">JESUMIDO</div>
             <div class="footer-inner">
                 <div>ABOUT COMPANY</div>
                 <div>CONTACT US</div>
@@ -38,15 +38,18 @@
         width: 90%;
         margin: 100px auto 50px;
         font-weight: bold;
+        flex-wrap: wrap;
     }
 
     .footer-inner {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     .footer-inner div {
         margin: 0 20px;
+
     }
     hr {
         width: 90%;
@@ -60,6 +63,32 @@
     .footer-bottom img {
         width: 30%;
         height: 30%;
+    }
+
+    @media  only screen and (max-width: 415px) {
+        .logo {
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        .footer-inner div {
+           text-align: center;
+            width: 100%;
+
+        }
+        .footer-bottom img {
+            width: auto;
+            height: auto;
+            margin: 20px 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin: 50px auto;
+        }
+
+
+
     }
 
 </style>

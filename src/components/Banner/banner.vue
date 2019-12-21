@@ -71,6 +71,29 @@
 
     .banner-first {
         width: 70%;
+        padding: 40px;
+    }
+
+    @media only screen and (max-width: 415px ) {
+        .banner-second {
+            display: none;
+        }
+
+        .banner-first {
+            width: 100%;
+            text-align: center;
+        }
+
+        .left {
+            text-align: center;
+        }
+
+        .btn-jesu {
+            font-size: 19px;
+            padding: 10px 50px;
+            border-radius: 30px;
+        }
+
     }
 
 </style>

@@ -52,4 +52,11 @@
         text-decoration: none;
     }
 
+    @media only screen and (max-width: 415px ) {
+        .mainHeader {
+            display: none;
+        }
+
+    }
+
 </style>
