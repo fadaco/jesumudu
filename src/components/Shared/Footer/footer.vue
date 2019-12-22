@@ -32,6 +32,8 @@
 </script>
 
 <style scoped>
+    
+
     .footer {
         display: flex;
         justify-content: space-between;
@@ -69,13 +71,22 @@
         .logo {
             margin: 0 auto;
             margin-bottom: 20px;
+            font-size: 25px;
         }
 
         .footer-inner div {
            text-align: center;
             width: 100%;
+            margin: 0 0 5px 0;
+            font-size: 12px;
 
         }
+
+        .footer-inner {
+            width: 100%;
+
+        }
+
         .footer-bottom img {
             width: auto;
             height: auto;

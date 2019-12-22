@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="aboutUsHeader">
         <div id="aboutUsHeaderContent">
         <h1 class="paraHeader">Empowering Nigerians, to build a
             sustainable nation</h1>
@@ -57,14 +57,14 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        width: 80%;
+        width: 85%;
         margin: 0 auto;
     }
 
     .aboutUsBanner p {
-        color: #251871;
+        color: #1C115C;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .paraHeader {
@@ -73,19 +73,24 @@
     }
 
     .paraContent {
-        color: #5340BC;
+        color: rgba(28,17,92, .8);
         text-align: center;
     }
 
     .aboutUsBanner div {
-        color: #5340BC;
+        color: rgba(28,17,92, .8);
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 150%;
     }
 
     .aboutUsBannerContent {
-        padding: 20px;
-        box-shadow: 0 1px 8px 6px #ececec;
-        width: 27%;
+        padding: 25px;
+        box-shadow: 0 6px 24px 4px rgba(28,17,92, .08);
+        width: 25%;
         border-radius: 5px;
+        background-color: #fff;
+        margin: 0 5px;
     }
 
     .imageHolder {
@@ -93,20 +98,62 @@
     }
 
     .imageHolder img {
-        height: 100%;
+        height: 70%;
     }
 
     #aboutUsHeaderContent {
-        width: 70%;
+        width: 75%;
         margin: 50px auto;
+
     }
 
-    @media only screen and (max-width: 417px)  {
+
+    #aboutUsHeader {
+        background-image: url("../../assets/About-us-bg.svg");
+        background-size: cover;
+        padding: 60px;
+    }
+
+    @media only screen and (max-width: 417px) {
 
         .aboutUsBannerContent {
             margin: 0 0 20px 0;
-            width: 80%;
+            width: 90%;
+
         }
+
+        #aboutUsHeader {
+            background-image: url("../../assets/mobile-bg.svg");
+            background-size: cover;
+            -webkit-background-size: 30%;
+            background-size: 30%;
+            background-repeat: no-repeat;
+            background-position: 0% 35%;
+            padding: 20px;
+            background-color: #f3f3f3b0;
+        }
+
+        .imageHolder img {
+            height: 60%;
+        }
+
+        .aboutUsBanner p {
+            margin: 0 0 10px 0;
+            font-size: 20px;
+        }
+
+        .aboutUsBanner div {
+            font-size: 14px;
+            line-height: 160%;
+        }
+
+        #aboutUsHeaderContent {
+            width: 85%;
+            margin: 50px auto;
+
+        }
+
     }
+
 
 </style>

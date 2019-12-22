@@ -5,8 +5,8 @@
             <div class="sideHeaderContent">
                 <div>Partners</div>
                 <div><router-link to="/courses">Courses</router-link></div>
-                <div><router-link to="about">About Us</router-link></div>
-                <div class="register">Register</div>
+                <div><router-link to="/about">About Us</router-link></div>
+                <router-link to="/register"><div class="register">Register</div></router-link>
             </div>
         </div>
     </header>
