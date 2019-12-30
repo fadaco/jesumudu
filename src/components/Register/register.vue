@@ -13,7 +13,8 @@
             </div>
         </div>
 
-        <div v-if="registerForm === 'pd'" class="formContent">
+        <div v-if="registerForm === 'pd'" >
+            <div class="formContent">
             <div>
                 <div>
                     <label>First Name*</label>
@@ -95,9 +96,16 @@
                     <input type="text">
                 </div>
             </div>
+            </div>
+            <div class="submitContainer">
+                <button>Cancel</button>
+                <button>Continue</button>
+            </div>
         </div>
 
-        <div v-if="registerForm === 'ed'" class="formContent">
+        <div v-if="registerForm === 'ed'">
+
+            <div class="formContent">
             <div>
                 <h3>Application Details</h3>
                 <div>
@@ -183,10 +191,17 @@
                     </div>
                 </div>
             </div>
+            </div>
+
+            <div class="submitContainer">
+                <button>Cancel</button>
+                <button>Continue</button>
+            </div>
 
         </div>
 
-        <div v-if="registerForm === 'oi'" class="formContent">
+        <div v-if="registerForm === 'oi'">
+            <div class="formContent">
             <div>
                 <h3>Other Information</h3>
                 <div>
@@ -243,12 +258,15 @@
                     <input type="email">
                 </div>
             </div>
+            </div>
+
+            <div class="submitContainer">
+                <button>Cancel</button>
+                <button>Submit</button>
+            </div>
         </div>
 
-        <div>
-            <button>Cancel</button>
-            <button>Continue</button>
-        </div>
+
 
 
     </div>
@@ -328,6 +346,27 @@
 
     .cont {
         opacity: 0;
+    }
+
+    .submitContainer {
+        float: right;
+    }
+
+    .submitContainer > button:nth-child(1) {
+        background: #bcbcbc;
+        border: 0;
+    }
+    .submitContainer > button {
+        color: #ffffff;
+        margin: 0 13px;
+        padding: 11px 40px;
+        font-size: 14px;
+        border-radius: 3px;
+    }
+
+    .submitContainer > button:nth-child(2) {
+        background: #5340bc;
+        border: 0;
     }
 
     .subHeaderHighlight {
