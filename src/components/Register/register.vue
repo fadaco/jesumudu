@@ -2,9 +2,15 @@
     <div class="mainRegisterBody">
         <div>Registration Form</div>
         <div class="formHeader">
-            <div><input type="radio" value="pd" v-model="registerForm" name="registerForm">Personal Details</div>
-            <div><input type="radio" value="ed" v-model="registerForm" name="registerForm">Education</div>
-            <div><input type="radio" value="oi" v-model="registerForm" name="registerForm">Other Information</div>
+            <div><input type="radio" value="pd" v-model="registerForm" name="registerForm">Personal Details
+                <div :class="{subHeaderHighlight : registerForm === 'pd'}"></div>
+            </div>
+            <div><input type="radio" value="ed" v-model="registerForm" name="registerForm">Education
+                <div :class="{subHeaderHighlight : registerForm === 'ed'}"></div>
+            </div>
+            <div><input type="radio" value="oi" v-model="registerForm" name="registerForm">Other Information
+              <div :class="{subHeaderHighlight : registerForm === 'oi'}"></div>
+            </div>
         </div>
 
         <div v-if="registerForm === 'pd'" class="formContent">
@@ -265,7 +271,9 @@
         display: flex;
         justify-content: space-between;
         background: #f9f9f9;
-        padding: 9px;
+        padding-top: 9px;
+        padding-right: 9px;
+        padding-left: 9px;
         margin: 15px;
     }
 
@@ -285,6 +293,14 @@
     .mainRegisterBody {
         width: 70%;
         margin: 0 auto;
+    }
+
+    .formHeader {
+        font-size: 13px;
+    }
+
+    input[name="registerForm"] {
+        margin-right: 20px;
     }
 
     input[type="text"], select, textarea, input[type="email"], input[type="date"],
@@ -312,6 +328,12 @@
 
     .cont {
         opacity: 0;
+    }
+
+    .subHeaderHighlight {
+        height: 3px;
+        background: #614fc1;
+        margin-top: 4px;
     }
 
 </style>
