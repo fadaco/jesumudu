@@ -18,9 +18,8 @@
     measurementId: "G-9WHYW445PV"
   };
     let app = Firebase.initializeApp(firebaseConfig);
-    app.database();
-    //let db = app.database()
-   // let booksRef = db.ref('user-data')
+    let db = app.database()
+    export const booksRef = db.ref('user-data')
 export default {
   name: 'app',
 }

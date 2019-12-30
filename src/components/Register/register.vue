@@ -272,6 +272,9 @@
 </template>
 
 <script>
+    import toastr from 'toastr';
+    import {booksRef} from "../../App";
+
     export default {
         name: "register",
         data: function () {
@@ -319,9 +322,11 @@
             }
         },
         methods: {
-            submitForData(){
+            async submitForData(){
                 window.console.log('submitted!!!');
                 window.console.log(this.registerFormData);
+                await booksRef.push(this.registerFormData);
+                await toastr.success('successfully submitted');
             }
         }
     }
