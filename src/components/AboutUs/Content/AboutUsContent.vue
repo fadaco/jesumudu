@@ -29,10 +29,13 @@
 <style scoped>
 
     #aboutUsContent {
-        background-image: url("../../../assets/contentAboutUs.jpg");
+        /*background-image: url("../../../assets/contentAboutUs.jpg");*/
         width: 70%;
         margin: 50px auto;
         padding: 30px;
+        background-color: #f3f3f3b0;
+        border-radius: 5px;
+        border: 1px solid #eaeaea;
     }
 
     .disclaimerText {

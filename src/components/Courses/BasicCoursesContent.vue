@@ -13,7 +13,7 @@
                 </ul>
             </div>
              <div>
-                    <h3 class="courseSubTitle">SOCIAL SCIENCE </h3>
+                    <h3 class="courseSubTitle">Social Sciences </h3>
                     <ul>
                         <li>Mass Communication</li>
                         <li>Public Administration</li>
@@ -51,6 +51,7 @@
     #basicCourses {
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
 
     }
 
@@ -65,12 +66,14 @@
 
     .basicTitle {
         font-size: 20px;
+        opacity: 0.7;
     }
 
     .courseTitle {
         color: #801D56;
         font-weight: bold;
         margin: 20px 0;
+        font-size: 18px;
     }
 
     ul {
@@ -81,5 +84,17 @@
         background-image: url("../../assets/layout.svg");
         padding: 40px 0;
         margin: 50px;
+    }
+
+    @media only screen and (max-width: 417px) {
+        #basicCourses {
+            justify-content: start;
+            /*text-align: center;*/
+
+        }
+
+        #basicCourse {
+            padding: 30px 25px;
+        }
     }
 </style>

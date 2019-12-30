@@ -1,11 +1,11 @@
 <template>
     <div id="advancedCourse">
         <div class="courseTitle center">COURSES FOR PROFICIENCY DIPLOMA CERTIFICATION</div>
-        <div class="courseSubTitle center advancedTitle">Advanced</div>
+        <div class="courseSubTitle center advancedTitle">ADVANCED</div>
         <div id="advancedCourses">
             <div>
                 <div>
-                    <h3 class="courseSubTitle">EDUCATION</h3>
+                    <h3 class="courseSubTitle">Education</h3>
                     <ul>
                         <li>Guidance and Counseling Education</li>
                         <li>Physical & Health Education</li>
@@ -14,7 +14,7 @@
                 </div>
 
                 <div>
-                    <h3 class="courseSubTitle">SOCIAL SCIENCE </h3>
+                    <h3 class="courseSubTitle">Social Sciences </h3>
                     <ul>
                         <li>Sociology and Social Work</li>
                         <li>Psychology</li>
@@ -27,7 +27,7 @@
 
             <div>
                 <div>
-                    <h3 class="courseSubTitle">SCIENCE & ENGINEERING</h3>
+                    <h3 class="courseSubTitle">Science & Engineering</h3>
                     <ul>
                         <li>Computer Science</li>
                         <li>Public Health Science</li>
@@ -36,8 +36,7 @@
                 </div>
 
                 <div>
-                    <h3 class="courseSubTitle">BUSINESS & MANAGEMENT
-                        SCIENCES</h3>
+                    <h3 class="courseSubTitle">Business & Management Sciences</h3>
                     <ul>
                         <li>Economics</li>
                         <li>Accounting</li>
@@ -54,7 +53,7 @@
 
             <div>
                 <div>
-                    <h3 class="courseSubTitle">ARTS & HUMANITY</h3>
+                    <h3 class="courseSubTitle">Arts & Humanity</h3>
                     <ul>
                         <li>Theater Arts & Performing Arts</li>
                         <li>Mass Communication</li>
@@ -82,6 +81,7 @@
     #advancedCourses {
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
     .courseSubTitle {
@@ -101,6 +101,7 @@
         color: #801D56;
         font-weight: bold;
         margin: 20px 0;
+        font-size: 18px;
     }
 
     ul {
@@ -111,6 +112,13 @@
         background-image: url("../../assets/advanced-layout.svg");
         padding: 40px 0;
         margin: 50px;
+    }
+
+    @media only screen and (max-width: 417px){
+        #advancedCourse {
+            padding: 40px 25px;
+        }
+
     }
 
 </style>

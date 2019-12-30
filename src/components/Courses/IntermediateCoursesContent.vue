@@ -1,11 +1,11 @@
 <template>
     <div id="intermediateCourse">
         <div class="courseTitle center">COURSES FOR PROFICIENCY DIPLOMA CERTIFICATION</div>
-        <div class="courseSubTitle center intermediateTitle">Intermediate</div>
+        <div class="courseSubTitle center intermediateTitle">INTERMEDIATE</div>
         <div id="intermediateCourses">
             <div>
                 <div>
-                    <h3 class="courseSubTitle">PUBLIC ADMINISTRATION</h3>
+                    <h3 class="courseSubTitle">Public Administration</h3>
                     <ul>
                         <li>Policy and Applied Social Research</li>
                         <li>Politics and Public Policy</li>
@@ -15,7 +15,7 @@
                 </div>
 
                 <div>
-                    <h3 class="courseSubTitle">EDUCATION</h3>
+                    <h3 class="courseSubTitle">Education</h3>
                     <ul>
                         <li>Early Childhood Education</li>
                         <li>Education Leadership and Management</li>
@@ -29,7 +29,7 @@
 
             <div>
                 <div>
-                    <h3 class="courseSubTitle">BUSINESS ADMINISTRATION</h3>
+                    <h3 class="courseSubTitle">Business Administration</h3>
                     <ul>
                     <li>Accounting and Finance</li>
                     <li>Business Administration</li>
@@ -70,11 +70,13 @@
     #intermediateCourses {
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
 
     .courseSubTitle {
         color: #1C115C;
         font-weight: bold;
+        text-transform: initial;
     }
 
     .center {
@@ -83,12 +85,14 @@
 
     .intermediateTitle {
         font-size: 20px;
+        opacity: 0.7;
     }
 
     .courseTitle {
         color: #801D56;
         font-weight: bold;
         margin: 20px 0;
+        font-size: 18px;
     }
 
     ul {
@@ -99,6 +103,13 @@
         background-image: url("../../assets/intermediateLayout.svg");
         padding: 40px 0;
         margin: 50px;
+    }
+
+    @media only screen and (max-width: 417px)  {
+        #intermediateCourse {
+            padding: 40px 25px;
+        }
+
     }
 
 </style>

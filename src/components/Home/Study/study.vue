@@ -28,6 +28,7 @@
 <style scoped>
     #study {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .study-one {
@@ -66,6 +67,31 @@
 
     .diver {
         height: 100%;
+    }
+
+    @media only screen and (max-width: 415px ) {
+        .study-two  {
+            width: 100%;
+        }
+
+        .study-one  {
+            width: 100%;
+            text-align: center;
+        }
+
+        .study-one-cont {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .btn-jesu {
+            font-size: 19px;
+            padding: 10px 50px;
+            border: 2px solid #5340BC;
+            border-radius: 30px;
+        }
+
     }
 
 </style>
