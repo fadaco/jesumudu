@@ -356,12 +356,25 @@
         background: #bcbcbc;
         border: 0;
     }
+
+    .submitContainer > button:nth-child(1):hover {
+        border: 1px solid #bcbcbc;
+        background: transparent;
+        color: #bcbcbc;
+    }
     .submitContainer > button {
         color: #ffffff;
         margin: 0 13px;
         padding: 11px 40px;
         font-size: 14px;
         border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .submitContainer > button:nth-child(2):hover {
+        border: 1px solid #5340bc;
+        background: transparent;
+        color: #5340bc;
     }
 
     .submitContainer > button:nth-child(2) {
