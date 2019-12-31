@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import {firestorePlugin} from 'vuefire'
+import {store} from './store/store'
 import VueRouter from 'vue-router'
 import App from './App.vue'
 import {routes} from "./router"
@@ -15,6 +16,7 @@ const router = new VueRouter({
 
 new Vue({
   render: h => h(App),
-  router
+  router,
+  store,
 }).$mount('#app')
 
