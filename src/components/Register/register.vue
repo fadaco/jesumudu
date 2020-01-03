@@ -562,8 +562,8 @@
             position: absolute;
             top: 0;
             left: 0;
-            height: 25px;
-            width: 25px;
+            height: 30px;
+            width: 30px;
             background-color: #eee;
             border-radius: 50%;
         }
