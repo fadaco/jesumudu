@@ -31,10 +31,17 @@
                     <input type="text" v-model="registerFormData.otherName">
                 </div>
 
-                <div class="gender">
-                    <label>Gender</label>
-                    <input type="radio" value="female"  :name="registerFormData.gender" >Female
-                    <input type="radio" value="male" :name="registerFormData.gender">Male
+                <div class="gen">
+                    <label class="gender">Gender</label>
+                    <label class="container">Female
+                        <input type="radio" value="female"   name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Male
+                        <input type="radio" value="Male"   name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+
                 </div>
 
                 <div>
@@ -95,6 +102,7 @@
                     <!--<label>Religion*</label>-->
                     <!--<input type="text" v-model="registerFormData.religion">-->
                 <!--</div>-->
+
             </div>
             </div>
             <div class="submitContainer">
@@ -179,6 +187,7 @@
                     <div>
                         <label>City*</label>
                         <select v-model="registerFormData.universityCity">
+
                             <option value="" hidden="hidden">Select City</option>
                             <option>Lagos</option>
                         </select>
@@ -186,6 +195,7 @@
                     <div>
                         <label>State*</label>
                         <select v-model="registerFormData.universityState">
+
                             <option value="" hidden="hidden">Select State</option>
                             <option>Lagos</option>
                         </select>
@@ -457,7 +467,7 @@
             display: -moz-box !important;
             font-size: 11px;
             padding: 0px;
-            margin: 15px 3px;
+            margin: 25px 3px;
         }
 
         .formHeader input[type='radio']{
@@ -507,11 +517,11 @@
             text-align: center;
             font-weight: bold;
             margin: 30px 0 0 0;
+            font-size: 25px;
         }
 
         .gender label {
-            font-weight: 600;
-            margin: 20px 20px 0 0;
+          ;
         }
 
         /*.gender input {*/
@@ -522,7 +532,70 @@
 
 
         .gender {
-            margin: 10px 0 0 0;
+            font-weight: 600;
+            margin: 0 20px 0 0;
+            font-size: 16px;
+        }
+
+
+
+        .container {
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 16px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            margin: 0 10px;
+        }
+
+        .container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #eee;
+            border-radius: 50%;
+        }
+
+        .container:hover input ~ .checkmark {
+            background-color: #ccc;
+        }
+
+        .container input:checked ~ .checkmark {
+            background-color: #5340bc;
+        }
+
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        .container input:checked ~ .checkmark:after {
+            display: flex;
+        }
+
+        .container .checkmark:after {
+            top: 9px;
+            left: 9px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: white;
+        }
+        .gen {
+            margin: 10px 0;
         }
 
 
