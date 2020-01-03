@@ -199,7 +199,7 @@
 
         </div>
 
-        <div v-if="registerForm === 'oi'">
+         <div v-if="registerForm === 'oi'">
             <div class="formContent">
             <div>
                 <h3>Other Information</h3>
