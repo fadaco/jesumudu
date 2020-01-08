@@ -39,11 +39,21 @@
 
     .register {
         border: 2px solid #614fc1;
-        color: #614fc1;
+        background-color: #614fc1;
         font-weight: bold;
         padding: 9px 26px;
-        border-radius: 19px;
+        border-radius: 50px;
+        color: #fff;
     }
+
+    .register:hover {
+        /*background-color: #614fc1;*/
+        /*color: white;*/
+        transition-property: box-shadow;
+        transition-duration: 0.3s;
+        box-shadow: 0 6px 12px 0 rgba(97,79,193, 0.4);
+    }
+
     .logo {
         font-weight: bolder;
     }

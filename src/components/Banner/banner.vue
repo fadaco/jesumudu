@@ -52,10 +52,13 @@
 
     .left {
         text-align: left;
+        letter-spacing: 1px;
     }
 
     .header-one {
-        font-weight: bolder;
+        font-weight: 900;
+        color: #000;
+        font-size: 40px;
     }
 
     .btn-jesu {
@@ -63,10 +66,18 @@
         color: #5340BC;
         margin: 20px 0;
         font-size: 19px;
-        padding: 7px 30px;
+        padding: 15px 40px;
         border: 2px solid #5340BC;
-        border-radius: 14px;
+        border-radius: 50px;
         font-weight: bold;
+        cursor: pointer;
+    }
+
+    .btn-jesu:hover {
+        background-color: #614fc1;
+        color: white;
+        transition-property: background-color;
+        transition-duration: 0.5s;
     }
 
     .banner-first {
@@ -91,7 +102,7 @@
         .btn-jesu {
             font-size: 19px;
             padding: 10px 50px;
-            border-radius: 30px;
+            border-radius: 50px;
         }
 
     }

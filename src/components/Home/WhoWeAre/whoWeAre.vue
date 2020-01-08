@@ -46,7 +46,7 @@
         display: flex;
         justify-content: space-evenly;
         margin: 0 auto;
-        width: 80%;
+        width: 90%;
         flex-wrap: wrap;
 
     }
@@ -56,33 +56,38 @@
         background-image: url("../../../assets/card.svg");
         background-size: cover;
         padding: 75px 54px;
-        box-shadow: 0 4px 16px 0 rgba(0,0,0, 0.13);
+        box-shadow: 0 10px 20px 0 rgba(0,0,0, 0.08);
         color: #251871;
+        border-radius: 5px;
     }
 
     .tabs-2 {
         background-image: url("../../../assets/grp2.svg");
         background-size: cover;
         padding: 75px 54px;
-        box-shadow: 0 4px 16px 0 rgba(0,0,0, 0.13);
+        box-shadow: 0 10px 20px 0 rgba(0,0,0, 0.08);
+        border-radius: 5px;
     }
 
     .tabs-3 {
         background-image: url("../../../assets/Group3.svg");
         background-size: cover;
         padding: 75px 54px;
-        box-shadow: 0 4px 16px 0 rgba(0,0,0, 0.13);
+        box-shadow: 0 10px 20px 0 rgba(0,0,0, 0.08);
+        border-radius: 5px;
     }
 
     .who {
         background: #f8f7fd;
-        padding: 40px 0;
+        padding: 75px 0;
+
     }
 
     .center {
         text-align: center;
-        color: #251871;
         font-size: 35px;
+        color: #170E46;
+        margin: 0 0 40px 0;
     }
 
     .tabText {
@@ -91,20 +96,22 @@
 
     .boldText {
         font-size: 21px;
-        font-weight: bold;
+        font-weight: 800;
         margin: 20px 0;
         color: #251871;
     }
 
     .tabs img {
-        width: 38%;
+        width: 30%;
     }
 
     .bodT {
         font-weight: 600;
         opacity: 0.7;
-        line-height: 1.7em;
+        line-height: 1.5em;
         color: #251871;
+        letter-spacing: 0.5px;
+        font-size: 15px;
     }
 
     @media only screen and (max-width: 415px ) {
@@ -116,6 +123,7 @@
 
         .boldText {
             font-size: 28px;
+
         }
 
         .bodT {

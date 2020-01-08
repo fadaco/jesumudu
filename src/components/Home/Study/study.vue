@@ -4,7 +4,7 @@
             <div class="study-one">
                 <div class="study-one-cont">
                 <h1 class="header-one" >Study at your own pace</h1>
-                <div>Lorem ipsum mordicus edictum marm <br>
+                <div class="par">Lorem ipsum mordicus edictum marm <br>
                     marcuskld Dixon. Lorem ipsum mordicus <br>
                     edictum marm marcuskld Dixon </div>
                 <div><button class="btn-jesu">Learn More</button></div>
@@ -48,25 +48,40 @@
         background: none;
         color: #5340BC;
         margin: 20px 0;
-        font-size: 19px;
-        padding: 7px 30px;
+        font-size: 16px;
+        padding: 12px 40px;
         border: 2px solid #5340BC;
-        border-radius: 14px;
+        border-radius: 30px;
         font-weight: bold;
+        cursor: pointer;
+    }
+
+    .btn-jesu:hover {
+        background-color: #614fc1;
+        color: white;
+        transition-property: background-color;
+        transition-duration: 0.5s;
     }
 
     .study-one-cont {
         margin: 30% auto;
-        width: 57%;
+        width: 65%;
+
     }
 
     .header-one {
         color: #251871;
-        font-weight: bold;
+        font-weight: 900;
     }
 
     .diver {
         height: 100%;
+    }
+    .par {
+        color: #170E46;
+        font-weight: 700;
+        line-height: 1.7em;
+        letter-spacing: 0.5px;
     }
 
     @media only screen and (max-width: 415px ) {

@@ -18,8 +18,8 @@
             </div>
             <div>
                 <img src="../../../assets/twitter-logo-silhouette.svg">
-                <img src="../../../assets/instagram.svg">
-                <img src="../../../assets/facebook-logo.svg">
+                <a href="https://www.instagram.com/jesemedu/" target="_blank"><img src="../../../assets/instagram.svg"></a>
+                <a href="https://www.facebook.com/jesemedu/" target="_blank"><img src="../../../assets/facebook-logo.svg"></a>
             </div>
         </div>
     </div>

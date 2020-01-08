@@ -7,10 +7,10 @@
                    <img src="../../../assets/image-guy.svg">
                     <div>
                         <div class="bold">Alpha Ceturi</div>
-                        <div>Student</div>
+                        <div style="opacity: 0.6">Student</div>
                     </div>
                 </div>
-                <div>
+                <div style="color:#170E46">
                     Lorem ipsum mordicus edictum marm marcuskld
                     Dixon. Lorem ipsum mordicus edictum marm
                     marcuskld Dixon. Lorem ipsum mordicus edictum
@@ -23,10 +23,10 @@
                     <img src="../../../assets/image-woman.svg">
                     <div>
                         <div class="bold">Canis Major</div>
-                        <div>Student</div>
+                        <div style="opacity: 0.6">Student</div>
                     </div>
                 </div>
-                <div>
+                <div style="color:#170E46 ">
                     Lorem ipsum mordicus edictum marm marcuskld
                     Dixon. Lorem ipsum mordicus edictum marm
                     marcuskld Dixon. Lorem ipsum mordicus edictum
@@ -73,7 +73,7 @@
         background: #ffffff;
         padding: 25px 45px;
         width: 33%;
-        box-shadow: 0 0 18px 0 #d0d0d0;
+        box-shadow: 0 10px 20px 0 rgba(0,0,0, 0.06);
         border-radius: 5px;
     }
 
@@ -81,11 +81,12 @@
         text-align: center;
         margin-bottom: 44px;
         font-size: 40px;
-        color: rgb(37, 24, 113);
+        color: #170E46;
     }
 
     .bold {
         font-weight: bold;
+        color: #170E46;
     }
 
     @media only screen and (max-width: 415px ) {
