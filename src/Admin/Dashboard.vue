@@ -1,5 +1,5 @@
 <template>
-    <div>dashboard</div>
+    <div id="mainItem">dashboard</div>
 </template>
 
 <script>
@@ -9,5 +9,11 @@
 </script>
 
 <style scoped>
+
+    #mainItem {
+        background: #f5f5f5;
+        padding: 20px;
+        height: 100%;
+    }
 
 </style>

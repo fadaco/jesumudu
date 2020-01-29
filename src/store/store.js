@@ -13,7 +13,7 @@ export const store = new Vuex.Store({
         }
     },
     getters: {
-        userData: state => state.userBioData
+        getUserData: state => state.userBioData
     },
     actions: {
         loadUserBioData({commit}){

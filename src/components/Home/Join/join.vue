@@ -4,7 +4,7 @@
         <div>
         <div class="joinHeader">Join the academy</div>
         <div>Lorem ipsum dolor sit amet, vix te eruditi <br>voluptatibus.</div>
-        <div><button class="apply">Apply Now</button></div>
+            <div><router-link to="/register"><button class="apply">Apply Now</button></router-link></div>
         </div>
     </div>
         <div class="join-two">
@@ -46,12 +46,14 @@
         font-weight: 500;
     }
 
+
     .apply {
         margin: 20px 0;
         color: rgb(83, 64, 188);
         padding: 17px 37px;
         font-size: 26px;
         border-radius: 32px;
+        cursor: pointer;
     }
 
     @media only screen and (max-width: 415px ) {

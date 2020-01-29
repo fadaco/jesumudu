@@ -1,11 +1,8 @@
 <template>
     <div id="aboutUsHeader">
         <div id="aboutUsHeaderContent">
-        <h1 class="paraHeader">Empowering Nigerians, to build a
-            sustainable nation</h1>
-        <p class="paraContent">We are a value driven oriented Institution that offers professional training.
-            We are committed to helping individuals, leaders and organizations achieve
-            success and corporate goals.</p>
+        <h1 class="paraHeader">Get educated change the world</h1>
+        <p class="paraContent">We are a value driven oriented Institution that offers professional training. We are committed to helping individuals, leaders and organizations achieve success and corporate goals.</p>
         </div>
 
         <div class="aboutUsBanner">
@@ -15,9 +12,7 @@
                 </div>
                 <p>Vision</p>
                 <div>
-                    To be the pacesetter for other private
-                    Institutions across the globe by breeding graduates with
-                    Excellence, Intelligence and skill.
+                    To be the pacesetter for other private Institutions across the globe by breeding graduates with Excellence, Intelligence and skill.
                 </div>
             </div>
             <div class="aboutUsBannerContent">
@@ -26,9 +21,7 @@
                 </div>
                 <p>Mission</p>
                 <div>
-                    To be the pacesetter for other private
-                    Institutions across the globe by breeding graduates with
-                    Excellence, Intelligence and skill.
+                    To be the best among the rest in providing Education, Self- Discovery and fulfilment of Purpose.
                 </div>
             </div>
             <div class="aboutUsBannerContent">
@@ -37,9 +30,7 @@
                 </div>
                 <p>Core Values</p>
                 <div>
-                    To be the pacesetter for other private
-                    Institutions across the globe by breeding graduates with
-                    Excellence, Intelligence and skill.
+                    Professionalism, Integrity, Confidence and going extra miles.
                 </div>
             </div>
         </div>
