@@ -131,6 +131,7 @@
             background-position: 0% 35%;
             padding: 20px;
             background-color: #f3f3f3b0;
+
         }
 
         .imageHolder img {
@@ -149,7 +150,7 @@
 
         #aboutUsHeaderContent {
             width: 85%;
-            margin: 50px auto;
+            margin: 70px auto;
 
         }
 

@@ -90,6 +90,10 @@
             display: none;
         }
 
+        #banner {
+            margin-top: 20px;
+        }
+
         .banner-first {
             width: 100%;
             text-align: center;

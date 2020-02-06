@@ -95,6 +95,11 @@
 
         #basicCourse {
             padding: 30px 25px;
+            margin: 0 50px 50px 50px;
+        }
+
+        .courseTitle {
+            margin: 60px 0 0 0;
         }
     }
 </style>

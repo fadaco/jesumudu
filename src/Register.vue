@@ -1,22 +1,36 @@
 <template>
    <div>
-       <HeaderName/>
+       <mobileNav/>
+       <HeaderName v-if="!mobileView"/>
        <RegisterBody/>
-       <Foot/>
    </div>
 
 </template>
 
 <script>
+    import mobileNav from './components/Mobile-menu/mobile-menu';
     import HeaderName from './components/Shared/Header/header';
     import RegisterBody from './components/Register/register';
-    import Foot from './components/Shared/Footer/footer';
     export default {
         name: "Register",
+
+        data: () => {
+            return {
+                mobileView: true,
+                showNav: false,
+            };
+        },
+
+        methods: {
+            handleView() {
+                this.mobileView = window.innerWidth <= 990;
+            }
+        },
         components: {
+            mobileNav,
             HeaderName,
-            RegisterBody,
-            Foot
+            RegisterBody
+
         }
     }
 </script>
