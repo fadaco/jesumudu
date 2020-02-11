@@ -14,7 +14,8 @@
 
 <script>
     export default {
-        name: "header"
+        name: "header",
+        
     }
 </script>
 
@@ -63,9 +64,9 @@
     }
 
     @media only screen and (max-width: 415px ) {
-        .mainHeader {
-            display: none;
-        }
+        /*.mainHeader {*/
+            /*display: none;*/
+        /*}*/
 
     }
 
