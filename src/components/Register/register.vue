@@ -1,6 +1,6 @@
 <template>
     <div class="mainRegisterBody">
-        <div>Registration Form</div>
+        <div class="reg">Registration Form</div>
         <div class="formHeader">
             <div><input type="radio" value="pd" v-model="registerForm" name="registerForm">Personal Details
                 <div :class="{subHeaderHighlight : registerForm === 'pd'}"></div>
@@ -31,10 +31,17 @@
                     <input type="text" v-model="registerFormData.otherName">
                 </div>
 
-                <div>
-                    <label>Gender</label>
-                    <input type="radio" value="female" :name="registerFormData.gender" >Female
-                    <input type="radio" value="male" :name="registerFormData.gender">Male
+                <div class="gen">
+                    <label class="gender">Gender</label>
+                    <label class="container">Female
+                        <input type="radio" value="female"   name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+                    <label class="container">Male
+                        <input type="radio" value="Male"   name="radio">
+                        <span class="checkmark"></span>
+                    </label>
+
                 </div>
 
                 <div>
@@ -91,10 +98,11 @@
                     <input type="text" v-model="registerFormData.nativeLanguage">
                 </div>
 
-                <div>
-                    <label>Religion*</label>
-                    <input type="text" v-model="registerFormData.religion">
-                </div>
+                <!--<div>-->
+                    <!--<label>Religion*</label>-->
+                    <!--<input type="text" v-model="registerFormData.religion">-->
+                <!--</div>-->
+
             </div>
             </div>
             <div class="submitContainer">
@@ -179,12 +187,16 @@
                     <div>
                         <label>City*</label>
                         <select v-model="registerFormData.universityCity">
+
+                            <option value="" hidden="hidden">Select City</option>
                             <option>Lagos</option>
                         </select>
                     </div>
                     <div>
                         <label>State*</label>
                         <select v-model="registerFormData.universityState">
+
+                            <option value="" hidden="hidden">Select State</option>
                             <option>Lagos</option>
                         </select>
                     </div>
@@ -246,7 +258,7 @@
             </div>
 
             <div>
-                <h3 class="cont">kkkk</h3>
+                <!--<h3 class="cont">kkkk</h3>-->
                 <div>
                     <label>Phone*</label>
                     <input type="number" v-model="registerFormData.emergencyContactPhoneNo">
@@ -435,6 +447,158 @@
         height: 3px;
         background: #614fc1;
         margin-top: 4px;
+    }
+
+    @media only screen and (max-width: 417px) {
+
+        .formContent {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .formContent >div {
+            width: 100%;
+        }
+
+        .mainRegisterBody {
+            width: 85%;
+        }
+
+        .formHeader {
+            display: -moz-box !important;
+            font-size: 11px;
+            padding: 0px;
+            margin: 25px 3px;
+        }
+
+        .formHeader input[type='radio']{
+            margin-right: 5px;
+        }
+
+        input[type="text"], select, textarea, input[type="email"], input[type="date"],
+        input[type="number"] {
+
+            padding: 10px;
+            font-size: 16px;
+            height: 35pt;
+        }
+
+        .formContent > div > div {
+            height: 85px;
+        }
+
+        .stateField > div {
+            width: 100%;
+        }
+
+        .stateField {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 0 0 80px 0;
+        }
+
+        .submitContainer > button {
+            width: 45%;
+            margin: 0;
+            padding: 18px 41px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .submitContainer {
+            display: flex;
+            justify-content: space-between;
+            float: none;
+            margin: 20px 0;
+
+        }
+
+        .reg {
+            text-align: center;
+            font-weight: bold;
+            margin: 30px 0 0 0;
+            font-size: 25px;
+        }
+
+        .gender label {
+          ;
+        }
+
+        /*.gender input {*/
+            /*margin: 0 10px;*/
+            /*!*width: 50px;*!*/
+            /*!*border: 0;*!*/
+        /*}*/
+
+
+        .gender {
+            font-weight: 600;
+            margin: 0 20px 0 0;
+            font-size: 16px;
+        }
+
+
+
+        .container {
+            position: relative;
+            padding-left: 35px;
+            margin-bottom: 12px;
+            cursor: pointer;
+            font-size: 16px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            margin: 0 10px;
+        }
+
+        .container input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 25px;
+            width: 25px;
+            background-color: #eee;
+            border-radius: 50%;
+        }
+
+        .container:hover input ~ .checkmark {
+            background-color: #ccc;
+        }
+
+        .container input:checked ~ .checkmark {
+            background-color: #5340bc;
+        }
+
+        .checkmark:after {
+            content: "";
+            position: absolute;
+            display: none;
+        }
+
+        .container input:checked ~ .checkmark:after {
+            display: flex;
+        }
+
+        .container .checkmark:after {
+            top: 9px;
+            left: 9px;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: white;
+        }
+        .gen {
+            margin: 10px 0;
+        }
+
+
     }
 
 </style>

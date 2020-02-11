@@ -42,18 +42,24 @@
     }
 
     .joinHeader {
-        font-size: 3.1em;
+        font-size: 2.8em;
         font-weight: 500;
     }
 
 
     .apply {
-        margin: 20px 0;
+        margin: 35px 0;
         color: rgb(83, 64, 188);
-        padding: 17px 37px;
+        padding: 14px 35px;
         font-size: 26px;
-        border-radius: 32px;
+        font-weight: 600;
+        border-radius: 30px;
         cursor: pointer;
+        border: none;
+    }
+
+    .apply:hover {
+        box-shadow: 0 10px 20px 0 rgba(37,24,113, 0.4);
     }
 
     @media only screen and (max-width: 415px ) {
