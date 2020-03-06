@@ -33,7 +33,7 @@
 
     .join-two {
         width: 50%;
-        background-image: url("../../../assets/img-grp.svg");
+        background-image: url("../../../assets/join-now.jpg");
         background-size: cover;
     }
 

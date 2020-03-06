@@ -7,12 +7,12 @@
                 <div class="par">Lorem ipsum mordicus edictum marm <br>
                     marcuskld Dixon. Lorem ipsum mordicus <br>
                     edictum marm marcuskld Dixon </div>
-                <div><button class="btn-jesu">Learn More</button></div>
+                    <div><a href="http://www.easyclass.com" target="_blank"><button class="btn-jesu">Learn More</button></a></div>
                 </div>
             </div>
             <div class="study-two">
                 <div class="diver">
-                <img src="../../../assets/guy-img.jpg">
+                <img src="../../../assets/study-now.jpg">
                 </div>
             </div>
         </div>

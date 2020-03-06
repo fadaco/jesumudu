@@ -1,11 +1,15 @@
 <template>
     <header class="mainHeader">
-        <div class="logo"><router-link to="/">JESEM</router-link></div>
+        <div class="logo"><router-link to="/">
+        <div class="imgContainer">
+            <img src="../../../assets/jesem-logo.jpg"/>
+        </div>
+        </router-link></div>
         <div class="sideHeader">
             <div class="sideHeaderContent">
-                <div>Partners</div>
                 <div><router-link to="/courses">Courses</router-link></div>
                 <div><router-link to="/about">About Us</router-link></div>
+                <div><router-link to="/gallery">Gallery</router-link></div>
                 <router-link to="/register"><div class="register">Register</div></router-link>
             </div>
         </div>
@@ -20,11 +24,20 @@
 </script>
 
 <style scoped>
+
+    .imgContainer {
+        width: 200px;
+    }
+
+    .imgContainer img {
+        width: 100%;
+    }
+
     .mainHeader {
         display: flex;
         justify-content: space-between;
         width: 90%;
-        margin: 20px auto;
+        margin: 0 auto;
         align-items: center;
     }
 

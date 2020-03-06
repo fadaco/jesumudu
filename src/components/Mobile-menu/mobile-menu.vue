@@ -3,12 +3,12 @@
         <header class="naf">
 
 
-        <div class="twin">
-            <div id="navigation-icon" v-if="mobileView" @click="showNav = !showNav"  >
+        <div class="twin" v-if="mobileView" @click="showNav = !showNav" >
+            <div id="navigation-icon"  >
                 <i class="fas fa-bars" style="font-size: 25px;"></i>
             </div>
 
-            <div class="log"><router-link to="/"><h2>LOGO</h2></router-link> </div>
+            <div class="log"><router-link to="/" class="logoMobile"><h2>Jesemedu</h2></router-link> </div>
         </div>
 
 
@@ -16,6 +16,7 @@
                 <div class="reg"><router-link class="bld" to="/register"><a style="color:#5340BC; padding: 0">Register</a></router-link></div>
                 <router-link to="/about"> <a>About Us</a></router-link>
                 <router-link to="/courses"> <a>Courses</a></router-link>
+                <router-link to="/gallery"> <a>Gallery</a></router-link>
 
             </div>
         </Header>
@@ -86,6 +87,9 @@
         }
     }
 
+    .logoMobile {
+        text-decoration: none;
+    }
     .reg {
 
         background-color: #fff;

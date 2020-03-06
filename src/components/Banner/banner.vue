@@ -11,7 +11,7 @@
             </div>
 
             <div class="left">
-                <button class="btn-jesu">Learn More</button>
+                <a href="http://www.easyclass.com" target="_blank"><button class="btn-jesu">Learn More</button></a>
             </div>
         </div>
         <div class="banner-second">

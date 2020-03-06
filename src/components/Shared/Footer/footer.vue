@@ -14,7 +14,13 @@
             <div>
                 Copyright 2019 UtivaSolutions.<br>
                 All rights reserved
-
+            </div>
+            <div>
+                <div><b>Contact Us at:</b></div>
+                <div><span>info@jesemedu.org</span></div>
+                <div><span>registrar@jesemedu.org</span></div>
+                <div><span>bizdev@jesemedu.org</span></div>
+                <div><span>training@jesemedu.org</span></div>
             </div>
             <div>
                 <img src="../../../assets/twitter-logo-silhouette.svg">
